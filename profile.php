@@ -17,6 +17,7 @@ if($_SESSION['role'] != 'user') {
 </head>
 <body>
     <h1>Selamat datang <?php echo $_SESSION['name']?></h1>
-    <a href="./backend/logout.php">Logout</a>
+    <p><button><a href="show.php">Kelola Barang</a></button></p>
+    <p><button><a href="./backend/logout.php">Logout</a></button></p>
 </body>
 </html>
